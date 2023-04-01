@@ -1,0 +1,96 @@
+.doneButton {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.005em;
+  background: none;
+  border: none;
+  color: #505050;
+  fill: #505050;
+}
+.doneButton:hover {
+  color: #242424;
+  fill: #242424;
+}
+.doneButton:active {
+  color: #2fe6ff;
+  fill: #2fe6ff;
+}
+
+.cancelButton {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-decoration: none;
+  text-align: right;
+  letter-spacing: -0.005em;
+  background: none;
+  border: none;
+  color: #505050;
+  fill: #505050;
+}
+.cancelButton:hover {
+  color: #242424;
+  fill: #242424;
+}
+.cancelButton:active {
+  color: #2fe6ff;
+  fill: #2fe6ff;
+}
+.cancelIcon {
+  width: 12px;
+  height: 18px;
+}
+
+.createButton {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  background: none;
+  border: none;
+  text-align: right;
+  letter-spacing: -0.005em;
+
+  color: #505050;
+  fill: #505050;
+}
+.createButton:hover {
+  color: #242424;
+  fill: #242424;
+}
+.createButton:active {
+  color: #2fe6ff;
+  fill: #2fe6ff;
+}
+.createIcon {
+  width: 12px;
+  height: 18px;
+}
+.button-padding {
+  padding: 16px;
+}
+.linkDec {
+  text-decoration: none;
+}
+.linkEffect:hover {
+  color: #242424;
+  fill: #242424;
+}
+.linkEffect:active {
+  color: #2fe6ff;
+  fill: #2fe6ff;
+}

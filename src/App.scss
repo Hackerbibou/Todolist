@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  background-color: white;
+  width: 619px;
+  margin: auto;
+}
+.listButton {
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  width: 100%;
+  height: 60px;
+
+  background: #ffffff;
+  /* Border stroke color */
+
+  border: 0.75px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.TextFieldDiv {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+}
+.text-input {
+  width: 100%;
+  height: 50px;
+
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 26px;
+  /* identical to box height, or 93% */
+
+  letter-spacing: -0.01em;
+  color: #242424;
+  outline: none;
+  border: none;
+  opacity: 0.2;
+}
+
+.check-input-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  border: none;
+}
+.check-input {
+  width: 80%;
+  height: 41px;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  border: none;
+  letter-spacing: -0.005em;
+
+  color: #242424;
+  opacity: 0.2;
+}
+
+.checkboxdiv {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border: 1px solid #b4b4b4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button-padding {
+  padding: 16px;
+}
+.linkDec {
+  text-decoration: none;
+}
+.createListButton1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkEffect {
+  color: #242424;
+  fill: #242424;
+}
+.linkEffect:hover {
+  color: #242424;
+  fill: #242424;
+}
+.linkEffect:active {
+  fill: #2fe6ff;
+  color: #2fe6ff;
+}
+.checkDivider {
+  width: 16px;
+}
+.hidding {
+  display: none;
+}
+.showing {
+  display: inline;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  border: none;
+}
+.checkboxStyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  display: flex;
+  letter-spacing: -0.005em;
+  align-items: center;
+
+  /* Off-Black */
+
+  color: #242424;
+}
